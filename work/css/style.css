@@ -1,0 +1,75 @@
+
+body{
+    background-color: #333131;
+  }
+  
+  
+  #img01{
+    margin-top: 100px;
+    margin-left: 200px;
+    margin-right: 200px;
+  }
+
+  #img02{
+     margin-top: 400px;
+      margin-left: 450px;
+      margin-right: 200px;
+  }
+
+  #img03{
+     margin-top: 500px;
+     margin-left: 200px;
+      margin-bottom: 100px;
+      margin-right: 400px;
+  }
+  
+  .img_button img{
+    display: block;
+  }
+  
+  .img_button:hover{
+    opacity: 0.8;
+  }
+  
+  .content{
+    display: none;
+    padding: 30px;
+  }
+  
+  .close_button{
+    display: inline-block;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    background-color: rgb(255, 136, 0);
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .img_button{
+    transition: 0.5s all;
+    cursor: pointer;
+  }
+  
+  
+  .txt_img{
+    display: flex;
+  }
+  
+  
+  .txt{
+    width: 80%;
+    padding: 10px;
+  }
+  
+  #content01 .close_button{
+      background-color: rgba(122, 78, 19, 0.733);
+  }
+
+  #content02 .close_button{
+    background-color: rgb(238, 255, 0);
+  }
+  
+  #content03 .close_button{
+    background-color: rgb(255, 0, 0);
+  }
