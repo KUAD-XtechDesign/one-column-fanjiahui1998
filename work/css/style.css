@@ -12,13 +12,13 @@ body{
 
   #img02{
      margin-top: 400px;
-      margin-left: 450px;
+      margin-left: 350px;
       margin-right: 200px;
   }
 
   #img03{
-     margin-top: 500px;
-     margin-left: 200px;
+     margin-top: 450px;
+     margin-left: 450px;
       margin-bottom: 100px;
       margin-right: 400px;
   }
@@ -52,15 +52,10 @@ body{
   }
   
   
-  .txt_img{
-    display: flex;
-  }
-  
-  
   .txt{
     width: 80%;
     padding: 10px;
-    background-color: rgba(253, 242, 226, 0.658);
+    background-color: rgba(253, 242, 226, 0.377);
   }
   
   #content01 .close_button{
