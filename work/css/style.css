@@ -28,7 +28,7 @@ body{
   }
   
   .img_button:hover{
-    opacity: 0.8;
+    opacity: 0.5;
   }
   
   .content{
@@ -38,16 +38,16 @@ body{
   
   .close_button{
     display: inline-block;
-    padding: 10px;
-    margin: 10px 0;
-    border-radius: 5px;
-    background-color: rgb(255, 136, 0);
-    color: #fff;
-    cursor: pointer;
+    padding:20px;
+    margin: 20px;
+    border-radius: 20px;
+    cursor:pointer;
+    font-style: inherit;
+
   }
-  
+
   .img_button{
-    transition: 0.5s all;
+    transition: 1.0s all;
     cursor: pointer;
   }
   
@@ -60,6 +60,7 @@ body{
   .txt{
     width: 80%;
     padding: 10px;
+    background-color: rgba(253, 242, 226, 0.658);
   }
   
   #content01 .close_button{
